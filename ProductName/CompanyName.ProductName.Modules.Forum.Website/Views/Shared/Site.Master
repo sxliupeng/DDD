@@ -1,0 +1,27 @@
+﻿<%@ master language="C#" inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:contentplaceholder id="TitleContent" runat="server" /></title>
+    <link rel="stylesheet" type="text/css" href="../../Content/common.css" />
+    <script type="text/javascript" src="../../Scripts/global.js"></script>
+    <asp:contentplaceholder id="HeadCssFiles" runat="server" />
+    <asp:contentplaceholder id="HeadScripts" runat="server" />
+</head>
+<body>
+    <%--<% Html.RenderPartial("TopMenuBar"); %>--%>
+    <div class="wrap">
+        <div class="leftBox" id="leftBar">
+            <%--<% Html.RenderPartial("SectionNavbar"); %>--%>
+        </div>
+        <div class="rightBox" id="mainArea">
+            <div class="sideBarToggle" onclick="BbsList.changeIframe()"><img id="changeImg" alt="" src="../../Content/Images/clearleft.gif" /></div>
+            <div class="rightCont minheight800">
+                <asp:contentplaceholder id="MainContent" runat="server" />
+            </div>
+        </div>
+    </div>
+    <% Html.RenderPartial("Footer"); %>
+</body>
+</html>

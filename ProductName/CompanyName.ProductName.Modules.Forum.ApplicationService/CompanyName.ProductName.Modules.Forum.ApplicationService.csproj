@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33F2BC21-797F-4F8D-99A2-1998350D8F44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompanyName.ProductName.Modules.Forum.ApplicationService</RootNamespace>
+    <AssemblyName>CompanyName.ProductName.Modules.Forum.ApplicationService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EventBasedDDD">
+      <HintPath>..\libs\EventBasedDDD.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationServices\IExceptionLogService.cs" />
+    <Compile Include="ApplicationServices\Implementation\ExceptionLogService.cs" />
+    <Compile Include="ApplicationServices\Implementation\UserService.cs" />
+    <Compile Include="ApplicationServices\IUserService.cs" />
+    <Compile Include="ApplicationServices\Implementation\RoleService.cs" />
+    <Compile Include="ApplicationServices\IRoleService.cs" />
+    <Compile Include="ApplicationServices\Implementation\PostService.cs" />
+    <Compile Include="ApplicationServices\IPostService.cs" />
+    <Compile Include="ApplicationServices\Implementation\ThreadService.cs" />
+    <Compile Include="ApplicationServices\IThreadService.cs" />
+    <Compile Include="ApplicationServices\IForumQueryService.cs" />
+    <Compile Include="DataTransferObjects\ExceptionLogData.cs" />
+    <Compile Include="DataTransferObjects\UserData.cs" />
+    <Compile Include="DataTransferObjects\RoleData.cs" />
+    <Compile Include="DataTransferObjects\SectionData.cs" />
+    <Compile Include="DataTransferObjects\GroupData.cs" />
+    <Compile Include="Requests\ExceptionLog\CreateExceptionLogRequest.cs" />
+    <Compile Include="Requests\ExceptionLog\UpdateExceptionLogRequest.cs" />
+    <Compile Include="Requests\Section\RemoveSectionRoleUserRequest.cs" />
+    <Compile Include="Requests\User\AddUserRoleRequest.cs" />
+    <Compile Include="Requests\User\CreateUserRequest.cs" />
+    <Compile Include="Requests\User\GetPagedUserDataRequest.cs" />
+    <Compile Include="Requests\User\RemoveUserRoleRequest.cs" />
+    <Compile Include="Requests\User\UpdateUserRequest.cs" />
+    <Compile Include="Requests\Role\CreateRoleRequest.cs" />
+    <Compile Include="Requests\Role\UpdateRoleRequest.cs" />
+    <Compile Include="Requests\Post\CreatePostRequest.cs" />
+    <Compile Include="Requests\Post\GetPagedPostDataRequest.cs" />
+    <Compile Include="Requests\Post\UpdatePostRequest.cs" />
+    <Compile Include="Requests\Group\GetGroupDataListRequest.cs" />
+    <Compile Include="Requests\Group\GetPagedGroupDataRequest.cs" />
+    <Compile Include="Requests\Section\AddSectionRoleUserRequest.cs" />
+    <Compile Include="Requests\Section\CreateSectionRequest.cs" />
+    <Compile Include="Requests\Section\GetSectionDataListRequest.cs" />
+    <Compile Include="Requests\Section\GetPagedSectionDataRequest.cs" />
+    <Compile Include="Requests\Section\UpdateSectionRequest.cs" />
+    <Compile Include="Requests\Thread\CloseThreadRequest.cs" />
+    <Compile Include="Requests\Thread\GetPagedThreadDataListRequest.cs" />
+    <Compile Include="DataTransferObjects\PostData.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="DataTransferObjects\ThreadData.cs" />
+    <Compile Include="Requests\Group\CreateGroupRequest.cs" />
+    <Compile Include="Requests\Group\UpdateGroupRequest.cs" />
+    <Compile Include="Requests\Thread\UpdateThreadRequest.cs" />
+    <Compile Include="Requests\Thread\CreateThreadRequest.cs" />
+    <Compile Include="ApplicationServices\Implementation\SectionService.cs" />
+    <Compile Include="ApplicationServices\ISectionService.cs" />
+    <Compile Include="ApplicationServices\IGroupService.cs" />
+    <Compile Include="ApplicationServices\Implementation\GroupService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyName.ProductName.Modules.Forum\CompanyName.ProductName.Modules.Forum.csproj">
+      <Project>{CC9EFAE7-D518-4580-9DCD-84CC941167DF}</Project>
+      <Name>CompanyName.ProductName.Modules.Forum</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

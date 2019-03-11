@@ -1,0 +1,9 @@
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\bin\Debug\EventBasedDDDExample.DomainLayer.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\bin\Debug\EventBasedDDDExample.DomainLayer.pdb
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\bin\Debug\EventBasedDDD.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\bin\Debug\EventBasedDDD.pdb
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\obj\Debug\EventBasedDDDExample.DomainLayer.csprojAssemblyReference.cache
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\obj\Debug\EventBasedDDDExample.DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\obj\Debug\EventBasedDDDExample.DomainLayer.csproj.CopyComplete
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\obj\Debug\EventBasedDDDExample.DomainLayer.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.DomainLayer\obj\Debug\EventBasedDDDExample.DomainLayer.pdb

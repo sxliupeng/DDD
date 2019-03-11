@@ -1,0 +1,17 @@
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDDExample.PresentationLayer.exe
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDDExample.PresentationLayer.pdb
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDD.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDDExample.DomainLayer.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDDExample.InMemoryPersistenceLayer.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDD.pdb
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDDExample.DomainLayer.pdb
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\bin\Debug\EventBasedDDDExample.InMemoryPersistenceLayer.pdb
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\obj\x86\Debug\EventBasedDDDExample.PresentationLayer.csprojAssemblyReference.cache
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\obj\x86\Debug\EventBasedDDDExample.PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\obj\x86\Debug\EventBasedDDDExample.PresentationLayer.csproj.CopyComplete
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\obj\x86\Debug\EventBasedDDDExample.PresentationLayer.exe
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDDExample.PresentationLayer\obj\x86\Debug\EventBasedDDDExample.PresentationLayer.pdb

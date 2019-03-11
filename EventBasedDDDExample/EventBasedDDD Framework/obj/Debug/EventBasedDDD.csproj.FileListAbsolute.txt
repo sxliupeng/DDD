@@ -1,0 +1,6 @@
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDD Framework\bin\Debug\EventBasedDDD.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDD Framework\bin\Debug\EventBasedDDD.pdb
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDD Framework\obj\Debug\EventBasedDDD.csprojAssemblyReference.cache
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDD Framework\obj\Debug\EventBasedDDD.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDD Framework\obj\Debug\EventBasedDDD.dll
+C:\Users\LocalAdmin\Downloads\EventBasedDDDExample\EventBasedDDD Framework\obj\Debug\EventBasedDDD.pdb
